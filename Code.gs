@@ -4,7 +4,7 @@
  */
 
 const PREFFIX = "__"
-const MASTER_DECK_ID = "<INSERT_SLIDE_DECK_ID>";
+const MASTER_DECK_ID = "1wtXt-zETi2JYRXp33f0gZMP0W2SpKoPJxAI2MUWt2IA";
 const SLIDE_WIDTH = 720;
 const SLIDE_HEIGHT = 405;
 const IMAGE_WIDTH = 225;
@@ -71,7 +71,7 @@ function createSlides() {
 
           // we want to use some of the columns to create a chart
           if (placeholder.startsWith("__revenue_")) {
-            labels.push(cleanLabel);
+            labels.push(placeholder);
             values.push(rowRaw[i]);
           // the logo field contains a file also stored in google drive
           } else if (placeholder == "__logo_file_id__" && rowRaw[i]) {
