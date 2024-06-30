@@ -4,7 +4,7 @@
  */
 
 const PREFFIX = "__"
-const MASTER_DECK_ID = "1wtXt-zETi2JYRXp33f0gZMP0W2SpKoPJxAI2MUWt2IA";
+const MASTER_DECK_ID = "<INSERT_SLIDE_DECK_ID>";
 const SLIDE_WIDTH = 720;
 const SLIDE_HEIGHT = 405;
 const IMAGE_WIDTH = 225;
